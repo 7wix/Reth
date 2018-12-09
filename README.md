@@ -3,7 +3,7 @@
 Antes de qualquer coisa, este bot não foi feito para ser usado em larga escala então nem tente
 
 Para que os comandos funcionem corretamente, vocês devem botar os emojis que estão nas pastas aqui em servidores que o bot
-está, e não troquem o nome dos emojis, por mais estranhos que sejam
+está. Não troquem o nome dos emojis, por mais estranhos que sejam
 
 Boa parte dos comandos foi feito para ser identico ao do reth, embora nem todos cumpram isso
 ## Comandos não implementados
