@@ -5,6 +5,8 @@ Se você baixou anteriormente o `src/` vai ver que no `src/commands/` tem uma pa
 Delete a pasta `Utilidades`, o arquivo que está nela bloqueia o uso do `console.log()`
 ## Contato
 > grilo.lennon@gmail.com
+
+> `Grilo#4551`
 ## Observações
 Antes de qualquer coisa, este bot não foi feito para ser usado em larga escala então nem tente
 
