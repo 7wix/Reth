@@ -1,4 +1,8 @@
 # Reth
+## Atenção
+Se você baixou anteriormente o `src/` vai ver que no `src/commands/` tem uma pasta chamada `Utilidade/` e outra `Utilidades/`
+
+Delete a pasta `Utilidades`, o arquivo que está nela bloqueia o uso do `console.log()`
 ## Contato
 > grilo.lennon@gmail.com
 ## Observações
