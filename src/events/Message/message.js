@@ -27,6 +27,7 @@ module.exports = (client, message) => {
             var cmd = client.commands[command];
             if (cmd) cmd(client, message, args, prefix);
         }
+        if (!guildTable) return;
         if (guildTable.config.filtroInvites) worstFiltro(client, message);
     });
 };
