@@ -1,4 +1,6 @@
 # Reth
+## Contato
+> grilo.lennon@gmail.com
 ## Observações
 Antes de qualquer coisa, este bot não foi feito para ser usado em larga escala então nem tente
 
