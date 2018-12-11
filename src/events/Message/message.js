@@ -11,7 +11,7 @@ module.exports = (client, message) => {
         }
         if (guildTable) prefix = guildTable.prefix
         if (message.content.indexOf(prefix) !== 0) {
-            if (message.mentions.members.size < 1) {
+            if (message.mentions.members.size > 0) {
                 let mention = message.content.split(/ +/g)[0];
                 if (mention === `<@${client.user.id}>` || mention === `<@!${client.user.id}>`) {
                     message.reply(`${client.getEmoji("mec")} Meu prefixo atual é: **${prefix}** | ` +
