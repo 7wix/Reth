@@ -71,6 +71,7 @@ module.exports = async (client, message, args) => {
             }
         }
         guild.findById(message.guild.id, "edit", (err, guildTable) => {
+            let channel = message.channel;
             if (guildTable) {
                 channel = message.guild.channels.get(guildTable.edit.ban);
                 if (!channel) channel = message.channel;
